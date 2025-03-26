@@ -5,13 +5,6 @@
 //  Created by DUJUAN PUGH on 3/25/25.
 //
 
-//
-//  ContentView.swift
-//  we are cookin
-//
-//  Created by DUJUAN PUGH on 3/25/25.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -19,7 +12,7 @@ struct ContentView: View {
         Recipe(name: "Greek Salad",
                ingredients: ["Cucumber", "Tomato", "Feta Cheese", "Olives", "Olive Oil", "Oregano"],
                instructions: "Chop all vegetables. Mix in a bowl. Add feta, olives, and drizzle with olive oil. Sprinkle oregano on top.",
-               imageName: "greek_salad"),
+               imageName: "greeksalad"),
         
         Recipe(name: "Hummus",
                ingredients: ["Chickpeas", "Tahini", "Garlic", "Lemon Juice", "Olive Oil", "Salt"],
