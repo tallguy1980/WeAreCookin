@@ -11,6 +11,7 @@ struct ContentView: View {
     let recipes: [Recipe] = [
         Recipe(name: "Greek Salad",
                ingredients: ["Cucumber", "Tomato", "Feta Cheese", "Olives", "Olive Oil", "Oregano"],
+               //
                instructions: "Chop all vegetables. Mix in a bowl. Add feta, olives, and drizzle with olive oil. Sprinkle oregano on top.",
                imageName: "greeksalad"),
         
